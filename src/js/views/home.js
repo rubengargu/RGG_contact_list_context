@@ -34,9 +34,7 @@ export const Home = () => {
 							return (
 								<div className="row">
 									<div className="contact_box" key={index}>
-										<div className="col-3 col-md-3 col-sm-2">
-											<img className="img_contact" src="https://www.pngkey.com/png/full/195-1957117_contacts-icon-gray-contacts-icon-png.png" />
-										</div>
+										
 										<div className="col-8 col-md-6 col-sm-7">
 											<li className="individual_contact">
 												<h3>{contact.full_name}</h3>
