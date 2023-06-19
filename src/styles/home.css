@@ -1,0 +1,54 @@
+.contact_box {
+    justify-content:center;
+    display: flex;
+    border: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    padding-right: 10px;
+    margin-right: 5px
+}
+
+.container {
+    align-items:center ;
+    padding-right: 5%;
+}
+
+.ol {
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-self: center
+}
+.fas {
+    margin-right: 20px;
+}
+
+.individual_contact {
+    margin-top: 20px;
+}
+
+.img_contact {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 5%;
+}
+
+.user_edit {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px
+}
+
+.trash {
+    width: 30px;
+    height: 30px;
+}
+
+.edition_box {
+    margin-top: 60px;
+    margin-right: 5%;
+}
+
+.col-8 {
+    margin-left: 10%;
+}
