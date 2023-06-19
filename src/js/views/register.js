@@ -7,7 +7,7 @@ export const Register = () => {
 	const [data, setData] = useState({
 		full_name: "",
 		email: "",
-		agenda_slug: "carlosgarciare2",
+		agenda_slug: "rubengargu",
 		address: "",
 		phone: ""
 	});
