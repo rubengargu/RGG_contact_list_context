@@ -7,7 +7,7 @@ export const Home = () => {
 	const [contacts, setContacts] = useState([])
 
 	useEffect(() => {
-		fetch ("https://assets.breatheco.de/apis/fake/contact/agenda")
+		fetch ("https://assets.breatheco.de/apis/fake/contact/agenda/rubengargu")
 		.then((response) => response.json())
 		.then((response) => {
 			console.log(response)

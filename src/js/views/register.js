@@ -42,7 +42,7 @@ export const Register = () => {
 				<div className="row">
 					<div className="col-11 col-md-11 col-sm-10">
 						<label htmlFor="email" className="form-label">Email</label>
-						<input type="text" className="form-control" id="email" placeholder="@" onChange={(event) => {
+						<input type="email" className="form-control" id="email" placeholder="@" onChange={(event) => {
 							setData({...data, email: event.target.value})
 						}}/>
 					</div>
@@ -56,7 +56,7 @@ export const Register = () => {
 					</div>
 					<div className="col-5 col-md-5 col-sm-5">
 						<label htmlFor="phone" className="form-label">Numero de telefono</label>
-						<input type="text" className="form-control" id="phone" placeholder="Telefono" onChange={(event)=> {
+						<input type="number" className="form-control" id="phone" placeholder="Telefono" onChange={(event)=> {
 							setData({...data, phone: event.target.value})
 						}}/>
 					</div>
